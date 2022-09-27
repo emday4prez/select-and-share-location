@@ -1,9 +1,14 @@
 import axios from 'axios'
-
+import { Loader } from "@googlemaps/js-api-loader"
 
 const API_KEY = process.env.GOOGLE_API_KEY;
 const form = document.querySelector('form')!;
 const addressInput = document.getElementById('address')! as HTMLInputElement;
+
+const loader = new Loader({
+  apiKey: `${API_KEY}`,
+  version: "weekly"
+});
 
 type GoogleGeoCodingResponse = {
  results: {geometry: {location: {lat: number, lng: number}}}[];
@@ -21,19 +26,29 @@ function searchAddressHandler(event: Event){
    throw new Error('Could not fetch location');
   }
   const coordinates = response.data.results[0].geometry.location;
-  const map = new google.maps.Map(document.getElementById('map')!, {
-  center: coordinates,
-  zoom: 16
-});
-
+//   const map = new google.maps.Map(document.getElementById('map')!, {
+//   center: coordinates,
+//   zoom: 16
+// });
+loader.load().then(() => {
+ const map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
+    center: coordinates,
+    zoom: 16,
+  });
 new google.maps.Marker({
     position: coordinates,
     map: map,
   });
+
+});
+
+
  }).catch(err => {
   alert(err.message)
   console.log(err)
  })
+
+
 }
 
 
