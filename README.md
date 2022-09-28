@@ -29,6 +29,7 @@ This is a project from the [Understanding TypeScript](https://www.udemy.com/cour
 
 - [TypeScript](https://www.typescriptlang.org/) - TypeScript is a superset of JavaScript.
 - [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview) - Dynamic Maps
+- Google Maps JS API Loader
 - [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) - Address Conversion
 - [Axios](https://www.npmjs.com/package/axios) - HTTP
 - [Webpack](https://webpack.js.org/) - Bundling
