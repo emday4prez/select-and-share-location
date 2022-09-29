@@ -6,7 +6,6 @@ This is a project from the [Understanding TypeScript](https://www.udemy.com/cour
 
   - [Overview](#overview)
   - [Links](#links)
-  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -23,7 +22,6 @@ This is a project from the [Understanding TypeScript](https://www.udemy.com/cour
 
 - Live Site URL: [github pages](https://emday4prez.github.io/select-and-share-location/)
 
-## My process
 
 ### Built with
 
