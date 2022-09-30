@@ -2,10 +2,11 @@
 
 This is a project from the [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript/) course.  
 
+API Keys have been disabled, Google free tier limit reached.
+
 ## Table of contents
 
   - [Overview](#overview)
-  - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
@@ -14,13 +15,6 @@ This is a project from the [Understanding TypeScript](https://www.udemy.com/cour
  
 
 ## Overview
-
-
-
-
-### Links
-
-- Live Site URL: [github pages](https://emday4prez.github.io/select-and-share-location/)
 
 
 ### Built with
